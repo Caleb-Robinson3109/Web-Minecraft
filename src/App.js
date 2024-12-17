@@ -1,14 +1,14 @@
 import './App.css';
-import { Canvas } from '@react-three/fiber';
+import React from 'react';
+//import { Canvas } from '@react-three/fiber';
 
 function App() {
   return (
-    <>
-      <header>
+    <div className='App'>
+      <header className='App-header'>
         <p>Web Minecraft</p>
       </header>
-      <Canvas></Canvas>
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,34 @@
 .App{
   background-color: darkgray;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .App-header{
   font-size: larger;
   background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header-text{
+  font-style: italic;
+  font-size: large;
+  color: blue;
+}
+
+.canvas-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.canvas{
+  aspect-ratio: 16 / 9;
+  height: 400px;
+  width: auto;
 }
